@@ -15,12 +15,12 @@ variable "aws_key_pair_name" {
 
 variable "public_key_path" {
   description = "Path to ssh public key used to create this key on AWS"
-  default = "./jenkins.pub"
+  default = "../jenkins.pub"
 }
 
 variable "private_key_path" {
   description = "Path to the private key used to connect to instance"
-  default = "./jenkins.pem"
+  default = "../jenkins.pem"
 }
 
 variable "ssh_user" {
