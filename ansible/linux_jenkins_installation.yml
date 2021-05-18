@@ -40,9 +40,9 @@
   roles:
     - role: ansible-role-java
     - role: ansible-role-jenkins
-      vars:
-        jenkins_repo_url: "deb http://pkg.jenkins-ci.org/{{ ansible_os_family | lower}}-stable binary/"
-        jenkins_repo_key_url: "http://pkg.jenkins-ci.org/{{ ansible_os_family | lower }}-stable/jenkins-ci.org.key"
+      # vars:
+      #   jenkins_repo_url: "deb http://pkg.jenkins-ci.org/{{ ansible_os_family | lower}}-stable binary/"
+      #   jenkins_repo_key_url: "http://pkg.jenkins-ci.org/{{ ansible_os_family | lower }}-stable/jenkins-ci.org.key"
 
   tasks:
 
